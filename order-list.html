@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="images/favicon.ico" >
+<link rel="icon" href="images/animated_favicon1.gif" type="image/gif" >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The Cake Shop</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- start Navigation -->
+<script type="text/javascript" src="js/menu.js"></script>
+<link rel="stylesheet" href="css/menu.css" type="text/css" media="all" />
+<!-- end Navigation -->
+
+<!--start move objects -->
+<script type="text/javascript" src="js/move.bjects.js"></script>
+<!--end move objects -->
+
+<!--start font embed-->
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/Futura_Lt_BT_400.font.js"></script>
+<script type="text/javascript">
+	Cufon.replace('#footer p', {hover: true });
+	Cufon.replace('#container h1', {hover: true });
+</script>
+<!--end font embed-->
+
+<!--start left navigation-->
+<script type="text/javascript" src="js/sliding_effect.js"></script>
+<link rel="stylesheet" href="css/leftNavi.css" type="text/css" media="all" />
+<!--end left navigation-->
+
+<!--start form-->
+<link rel="stylesheet" href="css/jqtransform.css" type="text/css" media="all" />
+<script type="text/javascript" src="jquery.js" ></script>
+<script type="text/javascript" src="js/jquery.jqtransform.js" ></script>
+<script language="javascript">
+	$(function(){
+		$('form').jqTransform({imgPath:'img/'});
+	});
+</script>
+<!--end form-->
+<!--start slideshow-->
+<link rel="stylesheet" href="css/slideshow.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/s3Slider.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#slider').s3Slider({
+            timeOut: 4000
+        });
+    });
+</script>
+<!--end slideshow-->
+</head>
+
+<body class="actonline">
+<div id="main">
+	<div id="mayCart"><span><strong>Welcome</strong> : Rohit Dubariya</span><a href="order-list.html">My Order</a>   |<a href="login.html">Login</a>   | <a href="register.html">Sign Up</a><a href="shoppingbag.html"><img src="images/mycart.png" alt="Shopping Bag" border="0" />(2)</a></div>
+	<div id="navigation"><img src="images/nevi-left-corner.png" class="leftCorner" alt="corner" border="0" />
+    	<ul id="topnav">                      
+        	<li class="home"><a href="index.html" class="wiki_link">Home</a></li>
+            <li class="about"><a href="about-us.html">About Us</a></li>
+            <li class="online"><a href="shop-online.html">Shop Online</a></li>
+            <li class="news"><a href="news.html">News</a></li>
+            <li class="register"><a href="register.html">Register</a></li>
+            <li class="backNone contact"><a href="contact-us.html">Contact Us</a></li>
+         </ul>
+         <img src="images/nevi-right-corner.png" class="rightCorner" alt="corner" border="0" />
+    </div>
+	<div id="Header">
+    	<div class="CakeShop"><a href="index.html"><img src="images/logoBg.png" alt="The Cake Shop" border="0" /></a></div>
+              <div id="slider">
+            <ul id="sliderContent">
+                <li class="sliderImage"><a href=""><img src="slideshow/cacke1.jpg" border="0" alt="Cacke" /></a><span class="top">&nbsp;</span></li>
+                <li class="sliderImage"><a href=""><img src="slideshow/birthday.jpg" border="0" alt="Birthday Cakes" /></a><span class="top">&nbsp;</span></li>
+                <li class="sliderImage"><img src="slideshow/marriage.jpg" border="0" alt="Wedding Flavours Cakes" /><span class="bottom">&nbsp;</span></li>
+                <li class="sliderImage"><img src="slideshow/anniversaries.jpg" border="0" alt="Anniversaries Cakes" /><span class="bottom">&nbsp;</span></li>
+                <div class="clear sliderImage"></div>
+            </ul>
+        </div>
+
+    </div>
+    <!--start container-->
+    <div id="container">
+    	<h1>Shop Online</h1>
+    	<div class="content">
+        	<!--start leftNavi-->
+        	<div class="leftNavi">
+                <ul id="sliding-navigation">
+                    <li class="sliding-element bdrTop"><a href="shop-online.html" class="cateAct" title="Birthday Cakes">Birthday Cakes</a></li>
+                    <li class="sliding-element"><a href="javascript:void(0)" title="Wedding Favors">Wedding Flavors</a></li>
+                    <li class="sliding-element"><a href="javascript:void(0)" title="Anniversaries Cakes">Anniversaries Cakes</a></li>
+                    <li class="sliding-element"><a href="javascript:void(0)" title="Seasonal Cakes">Seasonal Cakes</a></li>
+                    <li class="sliding-element bdrBtm"><a href="javascript:void(0)" title="Baby Shower Favors">Baby Shower Flavors</a></li>
+                </ul>
+            </div>
+            <!--end leftNavi-->
+            <!--start leftNavi-->
+        	<div class="rightcol">
+            	<h2>Order List</h2>
+            	<div class="description">
+            <table cellspacing="2" border="0" class="ItemOrder orderList">
+            	<tr>
+                	<th>Order No</th>
+                    <th>Order Date</th>
+                    <th>Payment Mode</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                    <th>Status</th>
+               	</tr>
+                <tr>
+                	<td>O101</td>
+                    <td>09-08-2010</td>
+                    <td>Cash on Delivery</td>
+                    <td>1</td>
+                    <td>KD 10.500</td>
+                    <td>Pending</td>
+               	</tr>
+                <tr>
+                	<td>O102</td>
+                    <td>27-07-2010</td>
+                    <td>Knet</td>
+                    <td>3</td>
+                    <td>KD 22.500</td>
+                    <td>Pending</td>
+               	</tr>
+                <tr>
+                	<td>O097</td>
+                    <td>26-07-2010</td>
+                    <td>Knet</td>
+                    <td>2</td>
+                    <td>KD 17.500</td>
+                    <td>Pending</td>
+               	</tr>
+                <tr>
+                	<td>O101</td>
+                    <td>09-08-2010</td>
+                    <td>Cash on Delivery</td>
+                    <td>1</td>
+                    <td>KD 10.500</td>
+                    <td>Pending</td>
+               	</tr>
+                <tr>
+                	<td>O102</td>
+                    <td>27-07-2010</td>
+                    <td>Knet</td>
+                    <td>3</td>
+                    <td>KD 22.500</td>
+                    <td>Pending</td>
+               	</tr>
+                <tr>
+                	<td>O097</td>
+                    <td>26-07-2010</td>
+                    <td>Knet</td>
+                    <td>2</td>
+                    <td>KD 17.500</td>
+                    <td>Pending</td>
+               	</tr>
+                <tr>
+                	<td>O101</td>
+                    <td>09-08-2010</td>
+                    <td>Cash on Delivery</td>
+                    <td>1</td>
+                    <td>KD 10.500</td>
+                    <td>Pending</td>
+               	</tr>
+                <tr>
+                	<td>O102</td>
+                    <td>27-07-2010</td>
+                    <td>Knet</td>
+                    <td>3</td>
+                    <td>KD 22.500</td>
+                    <td>Pending</td>
+               	</tr>
+                <tr>
+                	<td>O097</td>
+                    <td>26-07-2010</td>
+                    <td>Knet</td>
+                    <td>2</td>
+                    <td>KD 17.500</td>
+                    <td>Pending</td>
+               	</tr>
+                <tr>
+                	<td>O101</td>
+                    <td>09-08-2010</td>
+                    <td>Cash on Delivery</td>
+                    <td>1</td>
+                    <td>KD 10.500</td>
+                    <td>Pending</td>
+               	</tr>
+                <tr>
+                	<td>O102</td>
+                    <td>27-07-2010</td>
+                    <td>Knet</td>
+                    <td>3</td>
+                    <td>KD 22.500</td>
+                    <td>Pending</td>
+               	</tr>
+                <tr>
+                	<td>O097</td>
+                    <td>26-07-2010</td>
+                    <td>Knet</td>
+                    <td>2</td>
+                    <td>KD 17.500</td>
+                    <td>Pending</td>
+               	</tr>
+                </table>
+            
+            	</div>
+            </div>
+            <!--end leftNavi-->
+        </div>
+    </div>
+    <!--end container-->
+    <div id="footer">
+    	<p><a href="ordering-policy.html">Ordering Policy</a>  |  <a href="terms-and-conditions.html">Terms &amp; Conditions</a>  |  copyright the cake shop 2010-2011</p>
+        <div class="facebook"><p>Socialize with us on </p>
+        	<a href="javascript:void(0)" target="_blank" class="fb"><img src="images/facebook.jpg" alt="facebook" border="0" /></a>
+            <img src="images/pipe.jpg" alt="pipe" border="0" />
+            <a href="javascript:void(0)" target="_blank" class="yt"><img src="images/youtube.jpg" alt="youtube" border="0" /></a>
+            <img src="images/pipe.jpg" alt="pipe" border="0" />
+            <a href="javascript:void(0)" target="_blank" class="bl"><img src="images/blog.jpg" alt="blog" border="0" /></a>
+        </div>
+        <p class="dmaster">Designed by: <a href="http://www.design-master.com/" target="_blank">Design Master</a></p>
+    </div>
+</div>
+</body>
+</html>
